@@ -1,0 +1,40 @@
+for tosin
+
+write logout function
+
+encrypt database**
+how to store session in database**
+
+injecting sql command in the user input
+The prepare method of the query provides some form of security so that these wont happen
+also if you use the place holders ?
+
+https://stackoverflow.com/questions/31647406/mysql-real-escape-string-equivalent-for-golang
+
+check how to go from http to https
+    - works in branch peter, but with a self-generated certificate, which needs to be accepted by the user (you get a warning message in the browser saying the site is not secure),
+        once we want to have some kind of hosting, we can apply for a free certificate valid for 3-month from https://letsencrypt.org/, otherwise for testing purposes it works
+        - https://www.cloudflare.com/ssl/
+        - https://www.sslforfree.com/
+
+check how to use google authentication**
+
+------------------
+for adrian
+- front end sign up
+- front end log in
+- front end log out
+- new post request and updating
+- add comments to posts (taneli)
+- image upload (tosin)
+
+
+UPDATE 24.11.:
+- post_id=0 print as error
+    -separate function that returns the dummy post
+- handle error pages
+- reaction handling
+- category filtering ***done***
+- breakpoints for the page & style improvements
+- load more button for posts
+- fix js json

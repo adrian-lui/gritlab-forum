@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+            crossorigin="anonymous"
+            />
+        <link rel="icon" type="image/x-icon" href="/static/images/favicon2.ico">
+        <title>Document</title>
+    </head>
+    <body class="bg-dark">
+        <section class="border rounded border-danger col-8 offset-2 mt-4">
+            <div class="row mt-2">
+                <div class="col-1 ms-3 mt-3">
+                    <img class="rounded-circle" style="max-width: 200%; border:
+                        2px solid #dc3545"
+                        src="static/images/raccoon_thumbnail1.jpg" id="">
+                </div>
+                <div class="col-7 mt-4 ms-3">
+                    <h5 class="mx-auto text-danger">ERROR</h5>
+                </div>
+            </div>
+            <div class="text-warning rounded my-2 py-2" id="post_div">
+                <div class="col-11 offset-1 my-1" id="post_heading">
+                    <h4>${ERROR_status}</h4>
+                </div>
+                <div class="col-10 offset-1" id="post_body">
+                    <div class="border-top border-danger bg-dark text-center"
+                        id="post_image"></div>
+                    <div class="text-justify my-2">
+                        <pre><p>${ERROR_information}</p></pre>
+                    </div>
+                    <div class="text-secondary mb-3">
+                        <p>#errors_were_made</p>
+                        <br>
+                    </div>
+                    <div class="col-6 mx-auto text-center">
+                        <button class="btn btn-dark border border-danger
+                            text-danger col-4" onclick="history.back()"
+                            id="back_button">Back</button>
+                    </div>
+                </div>
+            </section>
+
+
+
+
+        </body>
+    </html>
